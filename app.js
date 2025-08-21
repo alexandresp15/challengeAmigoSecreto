@@ -19,7 +19,7 @@ function adicionarAmigo() {
 
     // Verifica se o campo está vazio
     if (nomeDoAmigo == "") {
-        alert("Digite um nome antes de adicionar!");
+        alert("Por favor, insira um nome.");
         return;
     }
 
@@ -66,4 +66,24 @@ function atualizarListaAmigo() {
         lista.appendChild(li);
         i++;
     }
+}
+
+// Função Sortear
+function sortearAmigo() {
+
+    // Validar se há amigos na lista
+    if (amigos.length < 2) {
+        alert("É preciso ter pelo menos 2 amigos para sortear!");
+        return;
+    }
+
+    // Gerar índice aleatório
+    let indiceAleatorio = Math.floor(Math.random() * amigos.length);
+
+    // Obter o nome sorteado
+    let amigoSorteado = amigos[indiceAleatorio];
+
+    // Mostra o resultado na tela
+    let resultado = document.getElementById("resultado");
+    resultado.innerHTML = `Amigo sorteado: ${amigoSorteado}`;
 }

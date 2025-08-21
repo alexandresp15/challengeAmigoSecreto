@@ -2,6 +2,9 @@
 
 Este projeto foi desenvolvido como parte do **Challenge do curso de Lógica de Programação - Oracle Next Education (ONE) - Turma G9** da [Alura](https://www.alura.com.br).  
 
+👉 **Acesse o projeto online aqui:**  
+<a href="https://alexandresp15.github.io/challengeAmigoSecreto/" target="_blank">🔗 https://alexandresp15.github.io/challengeAmigoSecreto/</a>
+
 O objetivo é criar uma aplicação simples em **JavaScript, HTML e CSS** que permita:  
 - Adicionar nomes a uma lista de amigos;  
 - Validar entradas (não aceitar vazios, duplicados ou caracteres inválidos);  
